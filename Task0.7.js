@@ -2,18 +2,15 @@
 in Celsius and returns the temperature in Fahrenheit. 
 Write another function that does the opposite (Fahrenheit to Celsius)*/
 
-function celsiusToFahrenheit(Celsius){
-    var Fahrenheit = Celsius * (9/5); 
-    Fahrenheit = (Celsius / 32);
+    let Fahrenheit = Celsius * (5/9) + 32;
+        return Fahrenheit;
     
-    return Fahrenheit;
+}    
 
-}
 
-function fahrenheitToCelsius(fahrenheit){
-    var celsius = fahrenheit - 32;
-    celsius = fahrenheit * (5/9);
-    
-    return celsius;
-}
+function fahrenheitToCelsius(Fahrenheit) {
+    let Celsius = (Fahrenheit -32) * 5/9;
+            return Celsius;
+        
+}    
 
