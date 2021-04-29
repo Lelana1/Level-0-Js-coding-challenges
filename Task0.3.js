@@ -1,8 +1,11 @@
 
-function hello(string){  
-    greeting = "Hello " + string;
-    return greeting;
+function hello(string)  {
+  string = string + "!";
+
+var greeting = "Hello" + " " + string 
+
     
+    return greeting;
 }
 
 
