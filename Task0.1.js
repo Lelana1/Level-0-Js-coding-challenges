@@ -1,5 +1,3 @@
-/*Convert this pseudocode into actual code. Make it run.*/
-
 var x = 0;
 var y = 1;
 
