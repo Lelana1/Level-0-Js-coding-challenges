@@ -1,12 +1,9 @@
-function evenOrOdd(x){
+function evenOrOdd(num){
 
-  if (x % 2 == 0){
-    return "even"; 
-  }
-  
-  else{
-  return "odd";
-  
-  }
+ if (num % 2 == 0) {
+   console.log("even");
+ } else {
+   console.log("odd");
+ }
 
 }
