@@ -1,11 +1,13 @@
-/*Make a function to convert any number into hours and minutes. 
-(For example, 71 will become “1 hour, 11 minutes; 133 will become “2 hours, 13 minutes.)*/
-
 function timeConverter(num) {
-
-    hours = Math.floor(num / 60); 
-    var minutes = (num % 60); 
+var hour = Math.floor(num / 60); 
+var minute = Math.round(num % 60); 
+   
+let output = ""; 
     
-    time = hours + " hour , " + minutes + " minute ";
-    return time; 
-}
+    if (hour > 1 && minute > 1) output += `${hour} hours, ${minute} minutes` ;
+    if (hour > 1 && minute < 2) output += `${hour} hours, ${minute} minute` ;
+
+    if ((hour < 2, minute > 1)) output += `${hour} hour, ${minute} minutes` ;  
+ 
+     
+}    
