@@ -1,6 +1,7 @@
+function hello(name) {
+  var greeting = "Hello" + name + "!";
 
-function hello(name)  {
-  hello = "Hello" + name + "!";
+  console.log(greeting);
 }
 
 
