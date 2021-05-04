@@ -8,7 +8,7 @@ function vowelsInAstring(str) {
         if(vowelsfound.includes(input[i])) continue; 
         if(vowels.includes(input[i])) (vowelsfound.push(input[i]));
      
-        Output = " Vowels" + ": "  + (vowelsfound) + " ,";
+        Output = " Vowels" + ": "  + (vowelsfound).join(", ");
         
     } 
        
